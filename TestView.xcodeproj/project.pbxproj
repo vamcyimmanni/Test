@@ -12,6 +12,9 @@
 		3C8A0C51215A5DEC00AE10BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A0C4F215A5DEC00AE10BD /* Main.storyboard */; };
 		3C8A0C53215A5DEE00AE10BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A0C52215A5DEE00AE10BD /* Assets.xcassets */; };
 		3C8A0C56215A5DEE00AE10BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A0C54215A5DEE00AE10BD /* LaunchScreen.storyboard */; };
+		3C8A0C5E215A5E2600AE10BD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A0C5D215A5E2600AE10BD /* Test.swift */; };
+		3C8A0C60215A5FA900AE10BD /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A0C5F215A5FA900AE10BD /* CustomView.xib */; };
+		3C8A0C62215A5FF900AE10BD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A0C61215A5FF900AE10BD /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3C8A0C52215A5DEE00AE10BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C8A0C55215A5DEE00AE10BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C8A0C57215A5DEE00AE10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8A0C5D215A5E2600AE10BD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		3C8A0C5F215A5FA900AE10BD /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		3C8A0C61215A5FF900AE10BD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				3C8A0C52215A5DEE00AE10BD /* Assets.xcassets */,
 				3C8A0C54215A5DEE00AE10BD /* LaunchScreen.storyboard */,
 				3C8A0C57215A5DEE00AE10BD /* Info.plist */,
+				3C8A0C5D215A5E2600AE10BD /* Test.swift */,
+				3C8A0C5F215A5FA900AE10BD /* CustomView.xib */,
+				3C8A0C61215A5FF900AE10BD /* CustomView.swift */,
 			);
 			path = TestView;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8A0C56215A5DEE00AE10BD /* LaunchScreen.storyboard in Resources */,
+				3C8A0C60215A5FA900AE10BD /* CustomView.xib in Resources */,
 				3C8A0C53215A5DEE00AE10BD /* Assets.xcassets in Resources */,
 				3C8A0C51215A5DEC00AE10BD /* Main.storyboard in Resources */,
 			);
@@ -136,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C8A0C4E215A5DEC00AE10BD /* ViewController.swift in Sources */,
+				3C8A0C62215A5FF900AE10BD /* CustomView.swift in Sources */,
 				3C8A0C4C215A5DEC00AE10BD /* AppDelegate.swift in Sources */,
+				3C8A0C5E215A5E2600AE10BD /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

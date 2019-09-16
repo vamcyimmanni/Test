@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
+    @IBOutlet var firstCustomView: CustomView!
+    
+    @IBOutlet var secondCustomView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
